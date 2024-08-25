@@ -1,0 +1,7 @@
+
+Code Refactoring:
+Updated Libraries: The script now imports the necessary libraries, such as numpy, pandas, and matplotlib, to utilize their functionalities effectively. The older generation implemented Dict of Dict
+
+Improved Data Structure: The data structure of the input file has been revamped to use a Pandas DataFrame. This allows for more efficient data handling, manipulation, and analysis.
+
+Replaced optparse with argparser: The script transitioned from using optparse to argparser, a more modern and feature-rich library for parsing command-line arguments. This change provides better flexibility and readability in handling command-line options.
